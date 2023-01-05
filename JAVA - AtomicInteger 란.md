@@ -1,4 +1,4 @@
-## JAVA - AtomicInteger 란 ??
+## JAVA - AtomicInteger 란 ???
 
 > `AtomicInteger`는 `int` 자료형을 갖고 있는 `wrapping` 클래스 입니다.
 >
