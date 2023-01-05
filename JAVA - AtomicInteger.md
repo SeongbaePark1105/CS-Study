@@ -14,11 +14,11 @@
 
 `AtomicInteger`는 다음과 같이 생성이 가능하며, 초기값은 `0`, 초기값을 변경하고 싶으면 인자로 `int` 변수로 전달하면 됩니다.
 
-![image-20230105200051519](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230105200051519.png)     
+![image-20230105200051519](images/image-20230105200051519.png)     
 
 ##### 결과
 
-![image-20230105200122315](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230105200122315.png) 
+![image-20230105200122315](images/image-20230105200122315.png) 
 
 
 
@@ -26,33 +26,31 @@
 
 `AtomicInteger`의 `int` 값을 변경하려면 `set(int)`, 값을 읽으려면 `get()`을 사용해야 합니다.
 
-![image-20230105200217755](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230105200217755.png) 
+![image-20230105200217755](images/image-20230105200217755.png) 
 
 ##### 결과
 
-![image-20230105200231023](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230105200231023.png) 
+![image-20230105200231023](images/image-20230105200231023.png) 
 
 `getAndSet(int)`은 현재의 `value`를 `return`, 인자로 전달된 값으로 업데이트합니다.
 
-![image-20230105200324041](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230105200324041.png) 
+![image-20230105200324041](images/image-20230105200324041.png) 
 
 ##### 결과
 
-![image-20230105200329591](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230105200329591.png) 
+![image-20230105200329591](images/image-20230105200329591.png) 
 
 #### compareAntSet()
 
 `compareAndSet(expect, update)`는 현재 값이 예상하는 값(expect)과 동일하다면 update 값으로 변경해주고 `true`를 리턴해 줍니다. 그렇지 않다면 데이터 변경은 없고 `false`를 리턴합니다.
 
-![image-20230105200508094](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230105200508094.png) 
+![image-20230105200508094](images/image-20230105200508094.png) 
 
-![image-20230105200514830](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230105200514830.png) 
+![image-20230105200514830](images/image-20230105200514830.png) 
 
 #####  결과
 
-![image-20230105200523988](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230105200523988.png) 
-
-
+![image-20230105204254380](images/image-20230105204254380.png) 
 
 #### addAndGet() etc..
 
@@ -70,9 +68,9 @@
 
 `addAndGet()`은 현재 값에 `newValue`를 더하고, 그 결과를 리턴
 
-##### ![image-20230105202114448](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230105202114448.png) 
+##### ![image-20230105204312839](images/image-20230105204312839.png) 
 
 ##### 결과
 
-![image-20230105202133020](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230105202133020.png) 
+![image-20230105204322410](images/image-20230105204322410.png) 
 
