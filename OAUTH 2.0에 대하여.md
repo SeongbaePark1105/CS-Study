@@ -17,8 +17,6 @@
   - 클라이언트는 코드와 자기가 가지고 있던 Id와 Secret 정보를 담아서 다시 Server에 보냄
   - 클라이언트는 Access Token을 Server에 제출해 원하는 정보를 얻어온다.
 
-
-
 - Resource Owner
   - Client에게 접속을 하면 정보요청확인서를 받게 된다.
   - 승인을 하게 되면 Resource Server에 자동으로 접속된다.
