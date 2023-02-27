@@ -52,7 +52,7 @@
 
 ![image-20230105204254380](images/image-20230105204254380.png) 
 
-#### addAndGet() etc..
+#### addAndGet() etc...
 
 `getAndIncrement()` 현재 값 리턴하고 +1 증가
 
