@@ -19,7 +19,7 @@ SELECT job
  WHERE deptno = 10
 ```
 
-![image-20230317171736465](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230317171736465.png)
+![image-20230321190210770](images/image-20230321190210770.png)
 
 > 중복된 데이터  `PRESIDENT`와 `ANALYST` 제거되고, 중복되지 않은 데이터 1건씩만 결과가 반환됩니다.
 >
@@ -44,7 +44,7 @@ SELECT job
  WHERE deptno = 10
 ```
 
-![image-20230317172001549](C:\Users\sbpar\AppData\Roaming\Typora\typora-user-images\image-20230317172001549.png)
+![image-20230321190224542](images/image-20230321190224542.png)
 
 > `UNION ALL`로 합쳐진 쿼리는 각 쿼리에서 조회된 결과를 그대로 합쳐서 반환합니다.
 
