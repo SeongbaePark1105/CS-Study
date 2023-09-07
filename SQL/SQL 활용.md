@@ -135,7 +135,7 @@
 
   - 계층 구조에서 가장 최상위 값을 표시
 
-- ##### CONNECT_BY_ISFEAF
+- ##### CONNECT_BY_ISLEAF
 
   - 계층 구조에서 가장 최하위를 표시
 
